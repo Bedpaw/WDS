@@ -1,0 +1,16 @@
+.teachers_list {
+    display: grid;
+    grid-template-columns: 1fr
+}
+
+@media (min-width: 768px) {
+    .teachers_list {
+        grid-template-columns: 1fr 1fr
+    }
+}
+
+@media (min-width: 1024px) {
+    .teachers_list {
+        grid-template-columns: 1fr 1fr 1fr
+    }
+}

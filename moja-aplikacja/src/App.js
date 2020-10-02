@@ -13,6 +13,7 @@ import Classes from "./components/Classes/Classes";
 import PriceList from "./components/PriceList/PriceList";
 import Teachers from "./components/Teachers/Teachers";
 import TimeTable from "./components/TimeTable/TimeTable";
+import TeacherDeteiledInfo from "./components/TeacherDeteiledInfo/TeacherDeteiledInfo";
 
 class App extends React.Component {
 
@@ -29,6 +30,7 @@ class App extends React.Component {
                             <Route path="/PriceList" component={PriceList} />
                             <Route path="/Teachers" component={Teachers} />
                             <Route path="/TimeTable" component={TimeTable} />
+                            <Route path="/teacher/:id" component={TeacherDeteiledInfo} />
                         </Switch>
                     </div>
                 </main>

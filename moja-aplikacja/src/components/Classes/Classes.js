@@ -6,7 +6,7 @@ class Classes extends React.Component {
 
     render() {
         return (
-            <>Zajęcia</>
+            <p>Zajęcia</p>
         )
     }
 }
