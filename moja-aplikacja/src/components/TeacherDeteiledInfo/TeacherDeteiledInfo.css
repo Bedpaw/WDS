@@ -1,0 +1,32 @@
+.teacherDeteiled {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.teacherDeteiled img {
+    align-self: center;
+}
+
+.teacherDeteiledInfo {
+    display:flex;
+    flex-direction: column;
+}
+
+.teacherDeteiledInfo p {
+    text-align: justify;
+}
+
+@media (min-width: 1024px) {
+    .teacherDeteiled {
+        flex-direction: row-reverse;
+        align-items: end;
+    }
+
+    .teacherDeteiled img {
+        min-width: 300px;
+        align-self: end;
+    }
+}

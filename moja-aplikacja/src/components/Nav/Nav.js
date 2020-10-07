@@ -8,7 +8,7 @@ class Nav extends React.Component {
         return (
             <nav>
                 <div className={'container'}>
-                    <Link to={`/`}><h1>Glowna</h1></Link>
+                    <Link to={`/`}><img src={'../../assets/logo.jpg'} className={'logo'}/></Link>
                     <Link to={`/AboutPlace`}><h1>O miejscu</h1></Link>
                     <Link to={`/Classes`}><h1>Zajecia</h1></Link>
                     <Link to={`/PriceList`}><h1>Cennik</h1></Link>

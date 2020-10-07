@@ -1,11 +1,24 @@
 import React from 'react';
 import './TeacherDeteiledInfo.css';
-import { Link } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
+import { teachers } from '../Teachers/TeachersInfoData.js'
 
-function TeacherDeteiledInfo (params) {
+function TeacherDeteiledInfo () {
+    let urlParams = useParams();
+    const {id, firstName, lastName, img, lesson, bio} = teachers[urlParams.id];
+    console.log(urlParams.id);
+    console.log(teachers[urlParams.id].lastName);
     return (
-        <section className={'teacher_deteiled_info'}>
-        </section>
+        <div className={'container'}>
+            <h1>{firstName} {lastName}</h1>
+            <section className={'teacherDeteiled'}>
+                <img src={img} alt={`prowadzacy: ${firstName} ${lastName}`}/>
+                    <article className={'teacherDeteiledInfo'}>
+                        <h2>O Mnie</h2>
+                        <p>{bio}</p>
+                    </article>
+            </section>
+        </div>
     );
 }
 
