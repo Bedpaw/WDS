@@ -39,9 +39,9 @@ export const passes = [
   },
   {
     name: 'OPEN',
-    alerts: '',
+    alerts: 'Wszystkie zajęcia z wyłączeniem wokolu indywidualnego',
     entries: [
-      new EntryPass(0, 850),
+      new EntryPass("-", 850),
     ]
   },
 
