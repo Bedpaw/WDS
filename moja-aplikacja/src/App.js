@@ -22,7 +22,6 @@ class App extends React.Component {
             <Router>
                 <Nav/>
                 <main>
-                    <div className="container container--main">
                         <Switch>
                             <Route exact path="/" component={LandingPage} />
                             <Route path="/AboutPlace" component={AboutPlace} />
@@ -32,7 +31,6 @@ class App extends React.Component {
                             <Route path="/TimeTable" component={TimeTable} />
                             <Route path="/teacher/:id" component={TeacherDeteiledInfo} />
                         </Switch>
-                    </div>
                 </main>
                 <Footer/>
             </Router>
