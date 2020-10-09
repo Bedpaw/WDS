@@ -6,21 +6,23 @@ class TimeTable extends React.Component {
 
   render() {
     return (
-      <section>
+      <section className={"TimeTableSection"}>
         <div className={"TimeTable"}>
           {
             timeTable.map(day => {
               return (
-                <fieldset class={"DayContainer"}>
+                <fieldset className={"DayContainer"}>
                   <legend key={day.name}>{day.name}</legend>
                   {
                     day.events.map(event => {
                       return (
                         <div key={event.name + event.time} className={"EventContainer"}>
-                          <span className={"EventInformation"}>{event.time}</span>
-                          <span>{event.name}</span>
-                          <span className={"TeacherName"}>{event.teacher}</span>
-                        </div>
+                          <div>
+                            <span className={"EventInformation"}>{event.time}</span>
+                            <span>{event.name}</span>
+                          </div>
+                            {event.teacher}
+                          </div>
                       )
                     })
                   }

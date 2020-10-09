@@ -34,13 +34,13 @@ h2 {
 }
 
 h4 {
-   font-size: 24px;
+   font-size: 28px;
 }
 .SingleLesson {
     border: 2px white solid;
     border-radius: 5px;
     font-size: 24px;
-    padding: 10px;
+    padding: 20px;
     text-align: center;
 }
 .PriceListSection {
@@ -49,4 +49,22 @@ h4 {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+.PriceListTable {
+    width:100%
+}
+
+.Column {
+    display: flex;
+    flex-direction: column;
+}
+
+.DiscountBox {
+    font-weight: bold;
+    font-size: 24px;
+    padding-bottom: 10px;
+}
+
+.FlexStart {
+    align-items: start;
 }
