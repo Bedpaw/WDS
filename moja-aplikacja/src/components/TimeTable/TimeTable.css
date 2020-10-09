@@ -1,0 +1,23 @@
+.EventContainer {
+    display: flex;
+    justify-content: left;
+
+}
+.EventInformation {
+    padding-left: 25px;
+}
+.TimeTable {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    font-size: 20px;
+
+}
+.DayContainer {
+    margin-top:20px;
+    border: solid white 1px;
+    border-radius: 5px;
+}
+.TeacherName {
+    justify-self: flex-end;
+}
