@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b0911e0c.chunk.css",
+    "main.js": "/static/js/main.4dc7cd5b.chunk.js",
+    "main.js.map": "/static/js/main.4dc7cd5b.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.a8975b96.js",
+    "runtime-main.js.map": "/static/js/runtime-main.a8975b96.js.map",
+    "static/js/2.e3346e6b.chunk.js": "/static/js/2.e3346e6b.chunk.js",
+    "static/js/2.e3346e6b.chunk.js.map": "/static/js/2.e3346e6b.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.5f40ceca9c19e47a04f0822262be88e8.js": "/precache-manifest.5f40ceca9c19e47a04f0822262be88e8.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.b0911e0c.chunk.css.map": "/static/css/main.b0911e0c.chunk.css.map",
+    "static/js/2.e3346e6b.chunk.js.LICENSE.txt": "/static/js/2.e3346e6b.chunk.js.LICENSE.txt",
+    "static/media/AboutPlace.css": "/static/media/aboutUsBackground.5501f10a.jpg",
+    "static/media/aleksandraFoltman.jpg": "/static/media/aleksandraFoltman.36d46fec.jpg",
+    "static/media/andrzejMorawiec.jpg": "/static/media/andrzejMorawiec.63e208ef.jpg",
+    "static/media/emiliaWitowska.jpg": "/static/media/emiliaWitowska.3acd2fc7.jpg",
+    "static/media/grzegorzWolf.jpg": "/static/media/grzegorzWolf.47063957.jpg",
+    "static/media/katarzynaWiecek.jpg": "/static/media/katarzynaWiecek.188f52ba.jpg",
+    "static/media/LandingPage.css": "/static/media/landingPageBackground.7242d50b.jpg",
+    "static/media/logo.jpg": "/static/media/logo.478eab06.jpg",
+    "static/media/mateuszPietrzak.jpg": "/static/media/mateuszPietrzak.5d768797.jpg",
+    "static/media/pawelWitulski.jpg": "/static/media/pawelWitulski.0a55c032.jpg",
+    "static/media/piotrBurba.jpg": "/static/media/piotrBurba.d624ba77.jpg",
+    "static/media/reniaGoslawska.jpg": "/static/media/reniaGoslawska.f9b33f98.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a8975b96.js",
+    "static/js/2.e3346e6b.chunk.js",
+    "static/css/main.b0911e0c.chunk.css",
+    "static/js/main.4dc7cd5b.chunk.js"
+  ]
+}
