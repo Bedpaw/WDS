@@ -8,6 +8,7 @@ import  wiecek  from '../../assets/teachers_pic/katarzynaWiecek.jpg'
 import  pietrzak  from '../../assets/teachers_pic/mateuszPietrzak.jpg'
 import  witulski  from '../../assets/teachers_pic/pawelWitulski.jpg'
 import  burba  from '../../assets/teachers_pic/piotrBurba.jpg'
+//import  smuk  from '../../assets/teachers_pic/martaSmuk.jpg'
 
 export const teachers = [
     {
@@ -194,6 +195,15 @@ export const teachers = [
         lastName: 'Morawiec',
         lesson: 'Taniec Współczesny',
         img: morawiec,
+        bio: 'Absolwent bytomskiej Państwowej Szkoły Baletowej (1986) oraz Leningradzkiego Instytutu Kultury na wydziale Choreografii i Pedagogiki Baletu (1990).\n' +
+            ' Tańczył w zespole baletu Państwowej Opery Śląskiej i Śląskim Teatrze Tańca w Bytomiu, gdzie jednocześnie zajmował się asystenturą i repetycją prac choreografów zagranicznych. Występował gościnnie w Gdańskim i Kieleckim Teatrach Tańca.\n' +
+            ' Wykładowca metodyki nauczania tańca współczesnego na Uniwersytecie Muzycznym Fryderyka Chopina w Warszawie na specjalności: Pedagogika Baletowa oraz Choreografia i Teoria Tańca. Nauczyciel tańca współczesnego w Ogólnokształcącej Szkole Baletowej w Gdańsku. Pod czujnym okiem Andrzeja Morawca uczniowie tych szkół stają na podium wielu ogólnopolskich i międzynarodowych konkursów tańca, między innymi: w Gdańsku, Bytomiu, Kijowie, Rydze. Od 2019 nauczyciel tańca współczesnego W Niepublicznej Szkole Sztuki Tańca w Siedlcach.\n' +
+            ' Prowadzi warsztaty tańca współczesnego i klasycznego w kraju i za granicą.\n' +
+            'Jego choreografie wzbogacały repertuary m.in.: Teatru Wielkiego w Łodzi, Opery Bałtyckiej, Teatru Miejskiego w Gdyni, Kieleckiego Teatru Tańca, Teatru Rozrywki w Chorzowie. \n' +
+            'Dwukrotnie wyróżniony przez Dyrektora Centrum Edukacji Artystycznej Nagrodą Indywidualną II stopnia, za szczególny wkład w rozwój edukacji artystycznej w Polsce. \n' +
+            'W 2010 roku uzyskał tytuł doktora sztuki muzycznej w dyscyplinie artystycznej rytmika i taniec.\n' +
+            'W 2014 roku oznaczony „Zasłużony dla Kultury Polskiej" przez Ministra Kultury i Dziedzictwa Narodowego.\n' +
+            'Zdobywca nagrody ufundowanej przez Stowarzyszenie Autorów ZAiKS, za najciekawszą i najbardziej wartościową choreografię numeru dowolnego na XXI Ogólnopolskim Konkursie Tańca im. Wojciecha Wiesiołłowskiego w 2019 roku.'
     },
     {
         id: '8',
@@ -227,6 +237,22 @@ export const teachers = [
         lastName: 'Wiecek',
         lesson: 'Yoga',
         img: wiecek,
+        bio: 'certyfikowana instruktor Aerial Yoga, studentka Kursu Nauczycielskiego Jogi\n' +
+            '\n' +
+            'Aktorka scen muzycznych występująca na deskachTeatru Muzycznego im. D. Baduszkowej w Gdynii.\n' +
+            ' \n' +
+            'Przez lata praktykowała jogę, co zaprowadziło ją do studiowania rozległych jej form od równoważącej hatha jogi, przez płynną vinjasę, unoszącą aerial jogę do regeneracyjnej jogi nidry.\n' +
+            '\n' +
+            'Kreatywne eksploracje technik jogi i ciekawość zmotywowały ją w 2019 roku do ukończenia Kursu Instruktorskiego Aerial Yoga w Bhakti Shala - Szkole Jogi i Tantry.\n' +
+            'Obecnie studentka Kursu Nauczycielskiego BSYTT w Gdańsku .\n' +
+            'Od niedawna wzbogaca swój holistyczny rozwój o naturalne metody terapii.'
+    },
+    {
+        id: '10',
+        firstName: 'Marta',
+        lastName: 'Smuk',
+        lesson: 'Kapitan okrętu/wokal',
+        img: 'smuk',
         bio: 'certyfikowana instruktor Aerial Yoga, studentka Kursu Nauczycielskiego Jogi\n' +
             '\n' +
             'Aktorka scen muzycznych występująca na deskachTeatru Muzycznego im. D. Baduszkowej w Gdynii.\n' +
