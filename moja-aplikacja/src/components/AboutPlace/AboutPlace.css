@@ -1,0 +1,39 @@
+.aboutUs {
+    background-image: url('../../assets/aboutUsBackground.jpg');
+    background-position: center;
+    background-size: cover;
+    padding:0 ;
+}
+
+.aboutUsShadow {
+    background-color: rgba(0, 0, 0, .3);
+}
+
+.aboutUs .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:50px 0 ;
+}
+
+.aboutUsText {
+    width: 50%;
+}
+
+.aboutUsCText p {
+    text-align: justify;
+}
+
+.aboutUsLinks {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.aboutUsTeachers , .aboutUsClasses {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid white;
+}
+
