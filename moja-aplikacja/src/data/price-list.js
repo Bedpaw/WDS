@@ -7,8 +7,24 @@ class EntryPass {
   }
 }
 
+const moreData = "" +
+  "Rabaty:\n" +
+  "\n" +
+  "Rabaty łączą się.\n" +
+  " \n" +
+  "W indywidualnych przypadkach braku możliwości wykorzystania karnetu w danym miesiącu przewiduje się wykorzystanie wejść w ciągu kolejnych 2 tygodni.\n" +
+  " \n" +
+  "Karnety i wejściówki kupić można w godzinach 16.00 - 21.30 pon- pt bezpośrednio w Warsztacie.\n" +
+  "Płatność na razie wyłącznie gotówką - inne formy płatności wkrótce!\n"
 
 
+export const discounts = [
+  "karnet rodzinny -5% (dla 2 i więcej członków rodziny)",
+  "!!! październik -10% ( na wszystkie karnety - z wyłączeniem wokalu indywidualnego) !!!",
+
+
+
+]
 export const passes = [
   {
     name: 'aktorstwo, klasyka, współczesny, jazz, step, akrobatyka sceniczna:',
