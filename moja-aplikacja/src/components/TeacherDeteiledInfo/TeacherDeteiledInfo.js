@@ -6,8 +6,7 @@ import { teachers } from '../Teachers/TeachersInfoData.js'
 function TeacherDeteiledInfo () {
     let urlParams = useParams();
     const {id, firstName, lastName, img, lesson, bio} = teachers[urlParams.id];
-    console.log(urlParams.id);
-    console.log(teachers[urlParams.id].lastName);
+
     return (
         <div className={'container'}>
             <h1>{firstName} {lastName}</h1>

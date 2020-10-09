@@ -1,0 +1,16 @@
+import React from 'react';
+import './LessonsBasicInfo.css';
+import { Link } from 'react-router-dom';
+
+function LessonsBasicInfo (params) {
+    const {id, name, desc, teacher} = params;
+    return (
+            <article className={'lesson_info'}>
+                <h1>{name}</h1>
+                <Link to={`/teacher/${id}`}><h2>{teacher}</h2></Link>
+                <p>{desc}</p>
+            </article>
+    );
+}
+
+export default LessonsBasicInfo;

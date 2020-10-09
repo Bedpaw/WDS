@@ -8,7 +8,7 @@ class PriceList extends React.Component {
   render() {
     return (
 
-      <section>
+      <section className={"PriceListSection"}>
         <h2>Dostępne zajęcia</h2>
         <h4>Pojedyncze wejścia</h4>
         <p className={"SingleLesson"}> Wokal indywidualny u Marty Smuk – 100zł</p>
