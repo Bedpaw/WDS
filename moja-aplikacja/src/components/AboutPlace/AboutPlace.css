@@ -18,6 +18,7 @@
 
 .aboutUsText {
     width: 50%;
+    margin-bottom: 50px;
 }
 
 .aboutUsCText p {
@@ -27,13 +28,32 @@
 .aboutUsLinks {
     width: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
+    align-items: center;
+}
+
+.aboutUsLinks .btnTransparent {
+    width: 160px;
+    height: 40px;
 }
 
 .aboutUsTeachers , .aboutUsClasses {
+    width: 50%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 1px solid white;
+}
+
+.aboutUsTeachers {
+    align-self: flex-start;
+}
+
+.aboutUsClasses {
+    align-self: flex-end;
+}
+
+.aboutUsTeachers, .aboutUsClasses h3 {
+    text-align: left;
 }
 

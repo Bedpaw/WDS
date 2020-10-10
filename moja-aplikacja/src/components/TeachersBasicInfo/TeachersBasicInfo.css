@@ -17,6 +17,7 @@ img {
 
 .teacher_info h2 {
     text-align: center;
+    margin: 0;
 }
 
 @media (min-width: 1024px) {

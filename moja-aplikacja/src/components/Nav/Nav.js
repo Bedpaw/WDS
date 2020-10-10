@@ -16,7 +16,7 @@ class Nav extends React.Component {
                 </div>
                 <Menu right top={'0'}>
                     <Link to={`/AboutPlace`}><h1>O miejscu</h1></Link>
-                    <Link to={`/Classes`}><h1>Zajecia</h1></Link>
+                    <Link to={`/Lessons`}><h1>Zajecia</h1></Link>
                     <Link to={`/PriceList`}><h1>Cennik</h1></Link>
                     <Link to={`/TimeTable`}><h1>Harmonogram</h1></Link>
                     <Link to={`/Teachers`}><h1>Kadra</h1></Link>

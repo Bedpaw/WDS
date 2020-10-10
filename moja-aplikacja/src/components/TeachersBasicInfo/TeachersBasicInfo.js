@@ -7,7 +7,8 @@ function TeachersBasicInfo (params) {
     return (
         <Link to={`/teacher/${id}`}>
             <article className={'teacher_info'}>
-                <h2>{firstName} {lastName}</h2>
+                <h2>{firstName}</h2>
+                <h2>{lastName}</h2>
                 <img src={img} alt={`prowadzacy: ${firstName} ${lastName}`}/>
                 <h4>{lesson}</h4>
             </article>

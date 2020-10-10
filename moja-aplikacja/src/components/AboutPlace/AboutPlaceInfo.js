@@ -3,7 +3,7 @@ export  const aboutPlaceInfo =
             '        żeby ją dostrzec. Trzeba mieć wiedzę i doświadczenie, żeby ją uwolnić i ukształtować. ' +
             '        Trzeba mieć narzędzia, żeby to zrobić. Trzeba mieć miejsce, gdzie się tego dokona. ',
 
-        p2 : '„Warsztat” musiał powstać. Jest konsekwencją moich przemyśleń o zawodzie aktora, doświadczeń zebranych przez lata pracy na scenie,\' +\n' +
+        p2 : '„Warsztat” musiał powstać. Jest konsekwencją moich przemyśleń o zawodzie aktora, doświadczeń zebranych przez lata pracy na scenie,' +
             '  sumą wszystkich spotkań, rozmów i milczeń z ludźmi po obu jej stronach. ' +
             '  Powstał z potrzeby dzielenia się wiedzą i uczenia jednocześnie. ',
 

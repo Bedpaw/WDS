@@ -12,22 +12,24 @@ class AboutPlace extends React.Component {
                 <div className={'aboutUsShadow'}>
                     <div className={'container'}>
                         <article className={'aboutUsText'}>
-                            <p>{p1}</p>
-                            <p>{p2}</p>
-                            <p>{p3}</p>
-                            <p>{p4}</p>
+                            <h3>{p1}</h3>
+                            <h3>{p2}</h3>
+                            <h3>{p3}</h3>
+                            <h3>{p4}</h3>
                         </article>
                         <article className={'aboutUsLinks'}>
-                            <Link to={`/Teachers`}><div className={'aboutUsTeachers'}>
+                            <div className={'aboutUsTeachers'}>
                                 <h2>Nasi prowadzący</h2>
                                 <h3>Każde miejsce tworzą ludzie, poznajcie naszych mistrzów sztuki scenicznej, którzy prowadzą
                                 dla Was zajęcia.</h3>
-                            </div></Link>
-                            <Link to={`/Classes`}><div className={'aboutUsClasses'}>
+                                <Link to={`/Teachers`}><button className={'btnTransparent'}><h3>SPRAWDŹ</h3></button></Link>
+                            </div>
+                            <div className={'aboutUsClasses'}>
                                 <h2>Nasze zajęcia</h2>
-                                <h3>Nie wiesz czy znajdziesz coś dla siebie? Dowiedz się więcej o naszej ofercie i whbierz to co
-                                Cię interesuje najbardziej. </h3>
-                            </div></Link>
+                                <h3>Nie wiesz czy znajdziesz coś dla siebie? Dowiedz się więcej o naszej ofercie i wybierz to co
+                                Cię interesuje najbardziej.</h3>
+                                <Link to={`/Lessons`}><button className={'btnTransparent'}><h3>SPRAWDŹ</h3></button></Link>
+                            </div>
                         </article>
                     </div>
                 </div>
