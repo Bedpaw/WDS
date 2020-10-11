@@ -79,7 +79,7 @@ class PriceList extends React.Component {
             }
           </div>
         </div>
-        <p class={"AlertSmall"}>
+        <p className={"AlertSmall"}>
           Rabaty łączą się.
         </p>
 
