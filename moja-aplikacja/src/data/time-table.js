@@ -7,7 +7,7 @@ class event {
   }
 }
 export const timeTable = [
-  { name: 'PONIEDZIALEK',
+  { name: 'PONIEDZIAŁEK',
     events: [
       new event("16.30 - 17.45", "step", "Emilia Witowska" ),
       new event("18.00 - 19.30", "aktorstwo", "Grzegorz Wolf"),

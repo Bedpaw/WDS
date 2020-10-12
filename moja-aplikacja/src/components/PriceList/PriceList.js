@@ -11,7 +11,7 @@ class PriceList extends React.Component {
       <section className={"PriceListSection"}>
         <h2>Dostępne zajęcia</h2>
         <h4>Pojedyncze wejścia</h4>
-        <p className={"SingleLesson"}> Wokal indywidualny u Marty Smuk - 100zł - kontakt telefoniczny (666-666-666)</p>
+        <p className={"SingleLesson"}> Wokal indywidualny u Marty Smuk - 100zł - kontakt telefoniczny (531 373 343)</p>
         <p className={"SingleLesson"}>Jednorazowe wejście na każde z pozostałych zajęć - 45zł </p>
 
         <h4>Karnety</h4>
@@ -79,7 +79,7 @@ class PriceList extends React.Component {
             }
           </div>
         </div>
-        <p class={"AlertSmall"}>
+        <p className={"AlertSmall"}>
           Rabaty łączą się.
         </p>
 
