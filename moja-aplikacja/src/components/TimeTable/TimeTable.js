@@ -10,6 +10,7 @@ class TimeTable extends React.Component {
     mq.addEventListener("change", (ev => {
       this.forceUpdate()
     }))
+
     return (
 
       <section className={"TimeTableSection"}>

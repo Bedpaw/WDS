@@ -1,6 +1,7 @@
 import React from 'react';
 import './LandingPage.css';
 import AboutPlace from "../AboutPlace/AboutPlace";
+import Contact from "../Contact/Contact";
 
 class LandingPage extends React.Component {
 
@@ -9,6 +10,7 @@ class LandingPage extends React.Component {
             <>
                 <section className={'landingPage'}></section>
                 <AboutPlace />
+                <Contact/>
             </>
         )
     }
