@@ -13,14 +13,14 @@ class Nav extends React.Component {
                 <div className={'container'}>
                     <Link to={`/`}><img src={logo} className={'logo'}/></Link>
                     <h1>Warsztat Działań Scenicznych</h1>
+                    <Menu right top={'0'}>
+                        <Link to={`/AboutPlace`}><h2>O miejscu</h2></Link>
+                        <Link to={`/Lessons`}><h2>Zajecia</h2></Link>
+                        <Link to={`/PriceList`}><h2>Cennik</h2></Link>
+                        <Link to={`/TimeTable`}><h2>Harmonogram</h2></Link>
+                        <Link to={`/Teachers`}><h2>Kadra</h2></Link>
+                    </Menu>
                 </div>
-                <Menu right top={'0'}>
-                    <Link to={`/AboutPlace`}><h1>O miejscu</h1></Link>
-                    <Link to={`/Lessons`}><h1>Zajecia</h1></Link>
-                    <Link to={`/PriceList`}><h1>Cennik</h1></Link>
-                    <Link to={`/TimeTable`}><h1>Harmonogram</h1></Link>
-                    <Link to={`/Teachers`}><h1>Kadra</h1></Link>
-                </Menu>
             </nav>
         )
     }

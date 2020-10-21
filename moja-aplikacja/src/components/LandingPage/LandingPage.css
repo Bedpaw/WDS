@@ -1,6 +1,8 @@
 .landingPage {
-    background-image: url('../../assets/landingPageBackground.jpg');
+    background-color: black;
     height: calc(100vh - 100px);
     background-position: center;
     background-size: cover;
+    display: flex;
+    align-items: center;
 }

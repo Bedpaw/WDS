@@ -6,7 +6,7 @@
 }
 
 .aboutUsShadow {
-    background-color: rgba(0, 0, 0, .3);
+    background-color: rgba(0, 0, 0, .5);
 }
 
 .aboutUs .container {
@@ -17,8 +17,9 @@
 }
 
 .aboutUsText {
-    width: 50%;
+    width: 100%;
     margin-bottom: 50px;
+    text-align: center;
 }
 
 .aboutUsCText p {
@@ -39,10 +40,11 @@
 }
 
 .aboutUsTeachers , .aboutUsClasses {
-    width: 50%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 50px;
 }
 
 .aboutUsTeachers {
@@ -54,6 +56,25 @@
 }
 
 .aboutUsTeachers, .aboutUsClasses h3 {
-    text-align: left;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 1024px) {
+    .aboutUsText {
+        width: 50%;
+    }
+
+    .aboutUsTeachers , .aboutUsClasses {
+        width: 50%;
+        margin-top: 0;
+    }
+
+    .aboutUsTeachers, .aboutUsClasses h3 {
+        text-align: left;
+    }
 }
 

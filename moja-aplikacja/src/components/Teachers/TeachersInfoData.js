@@ -209,7 +209,7 @@ export const teachers = [
         id: '8',
         firstName: 'Pawel',
         lastName: 'Witulski',
-        lesson: 'Opieka Instrumentalna',
+        lesson: 'Opieka Muzyczna',
         img: witulski,
         bio: 'Kompozytor i multiinstrumentalista - pianista, wibrafonista oraz perkusista.\n' +
             '\n' +

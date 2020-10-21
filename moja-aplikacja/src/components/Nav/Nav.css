@@ -1,8 +1,7 @@
 nav {
     width: 100%;
     height: 100px;
-    background-color: #000000;
-    background-image: linear-gradient(315deg, #2f2c2c 0%, #626666 74%);
+    background-color: #5809AC;
     border-bottom: #000000 2px solid;
     position: sticky;
     top: 0;
@@ -21,7 +20,21 @@ nav a {
     color: #000000;
 }
 
+nav h1 {
+    display: none
+}
+
 nav .logo {
     width: 30%;
     height: 100%;
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 1024px) {
+    nav h1 {
+        display: flex;
+    }
 }
