@@ -4,15 +4,20 @@ import {timeTable} from "../../data/time-table";
 
 class TimeTable extends React.Component {
 
+  constructor(props) {
+    super(props);
+    this.state = {
+      mq: window.matchMedia('(min-width:930px'),
+      init: this.mq
+    }
+  }
   render() {
-    //:TODO this mq has to be changed
-    const mq = window.matchMedia('(min-width:930px')
-    mq.addEventListener("change", (ev => {
-      this.forceUpdate()
-    }))
-
+    this.state.mq.onchange = () => {
+      if(this.state.mq !== this.state.init) {
+        this.setState({init: window.matchMedia('(min-width:930px')})
+      }
+    }
     return (
-
       <section className={"TimeTableSection"}>
         <div className={"TimeTable"}>
           {
@@ -22,7 +27,7 @@ class TimeTable extends React.Component {
                   <legend key={day.name}>{day.name}</legend>
                   {
                     day.events.map(event => {
-                      if(mq.matches) {
+                      if(this.state.mq.matches) {
                         // Desktop view
                       return (
                         <div key={event.name + event.time} className={"EventContainer"}>

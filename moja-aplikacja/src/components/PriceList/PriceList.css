@@ -51,7 +51,7 @@ h4 {
     align-items: center;
 }
 .PriceListTable {
-    width:100%
+    width:100%;
 }
 
 .Column {
@@ -67,4 +67,37 @@ h4 {
 
 .FlexStart {
     align-items: start;
+}
+.tr {
+    display: table;
+}
+
+.xs-th {
+    border: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.xs-td {
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 10px;
+}
+.padding-top {
+    padding-top: 30px;
+}
+.margin-top {
+    margin-top: 10px;
+}
+
+.xs-table {
+    margin-bottom: 10px;
+}
+.xs-name-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
