@@ -39,45 +39,45 @@ export const teachers = [
             'Absolwentka Studium Wokalno - Aktorskiego im. D. Baduszkowej w Gdyni.\n' +
             'NAGRODY\n' +
             'Nagroda na Festiwalu Boska Komedia dla najlepszej II planowej aktorki (2016)\n' +
-            'Nagroda Prezydenta Gdyni za kreację aktorską w spektaklu &quot;Tango Nuevo&quot; (2012)\n' +
-            'Nagroda Publiczności za rolę Izabelli Łęckiej w przedstawieniu &quot;LALKA&quot; (2010)\n' +
-            'Nagroda Prezydenta Gdyni za autorski projekt &quot;Błogosławieni... Pieśni Gospel&quot;\n' +
-            'Nagroda Prezydenta Gdyni za rolę Bianki w musicalu &quot;Kiss me, Kate&quot; (2007)\n' +
+            'Nagroda Prezydenta Gdyni za kreację aktorską w spektaklu "Tango Nuevo" (2012)\n' +
+            'Nagroda Publiczności za rolę Izabelli Łęckiej w przedstawieniu "LALKA" (2010)\n' +
+            'Nagroda Prezydenta Gdyni za autorski projekt "Błogosławieni... Pieśni Gospel"\n' +
+            'Nagroda Prezydenta Gdyni za rolę Bianki w musicalu "Kiss me, Kate" (2007)\n' +
             '\n' +
             'ROLE AKTORSKIE\n' +
-            ' 2019 &quot;Śpiewak Jazz Band&#39;u&quot; - Taper, reż. W. Kościelniak - Teatr Żydowski\n' +
-            ' 2018 &quot;Chicago&quot; - Mistrz Ceremonii, reż. W. Kościelniak - Krakowski Teatr Variété\n' +
-            ' 2018 &quot;Tlen&quot; - reż. R. Zioło - Teatr Muzyczny w Gdyni\n' +
-            ' 2017 PPA - &quot;Dziubanina&quot;- reż. A. Duda-Gracz\n' +
-            ' 2017 &quot;Wiedżmin&quot; - Płotka, reż. W. Kościelniak - Teatr Muzyczny w Gdyni\n' +
-            ' 2016 &quot;Piotruś Pan&quot; - Bębniarz, reż. J. Józefowicz - Teatr Muzyczny w Gdyni\n' +
-            ' 2016 &quot;Śmierć przyjeżdża w środę&quot; - rola tytułowa, reż. A. Duda-Gracz - Teatr Muzyczny w Gdyni\n' +
-            ' 2015 &quot;Kumernis&quot; - Panienka Święta Benwenuta, reż. A. Duda-Gracz - Teatr Muzyczny w Gdyni\n' +
-            ' 2015 &quot;Mały Książę. Końcówka&quot; - Kobieta, reż. A. Nalepa - Teatr Muzyczny w Gdyni\n' +
-            ' 2014 &quot;This is not a love song&quot; - reż. R. Gosławska - Teatr Muzyczny w Gdyni\n' +
-            ' 2014 &quot;Przygody Sindbada Żeglarza&quot; - Diabeł Morski, reż. J. Kilian - Teatr Muzyczny w Gdyni\n' +
-            ' 2014 &quot;Bracia Dalcz i spółka&quot; - Krzysztofa, Krystyny, reż. W. Kościelniak - Taetr im. J. Słowackiego\n' +
+            ' 2019 "Śpiewak Jazz Band&#39;u" - Taper, reż. W. Kościelniak - Teatr Żydowski\n' +
+            ' 2018 "Chicago" - Mistrz Ceremonii, reż. W. Kościelniak - Krakowski Teatr Variété\n' +
+            ' 2018 "Tlen" - reż. R. Zioło - Teatr Muzyczny w Gdyni\n' +
+            ' 2017 PPA - "Dziubanina"- reż. A. Duda-Gracz\n' +
+            ' 2017 "Wiedżmin" - Płotka, reż. W. Kościelniak - Teatr Muzyczny w Gdyni\n' +
+            ' 2016 "Piotruś Pan" - Bębniarz, reż. J. Józefowicz - Teatr Muzyczny w Gdyni\n' +
+            ' 2016 "Śmierć przyjeżdża w środę" - rola tytułowa, reż. A. Duda-Gracz - Teatr Muzyczny w Gdyni\n' +
+            ' 2015 "Kumernis" - Panienka Święta Benwenuta, reż. A. Duda-Gracz - Teatr Muzyczny w Gdyni\n' +
+            ' 2015 "Mały Książę. Końcówka" - Kobieta, reż. A. Nalepa - Teatr Muzyczny w Gdyni\n' +
+            ' 2014 "This is not a love song" - reż. R. Gosławska - Teatr Muzyczny w Gdyni\n' +
+            ' 2014 "Przygody Sindbada Żeglarza" - Diabeł Morski, reż. J. Kilian - Teatr Muzyczny w Gdyni\n' +
+            ' 2014 "Bracia Dalcz i spółka" - Krzysztofa, Krystyny, reż. W. Kościelniak - Taetr im. J. Słowackiego\n' +
             'w Krakowie\n' +
-            ' 2013 &quot;Chłopi&quot; - Jagna, reż. W. Kościelniak - Teatr Muzyczny w Gdyni\n' +
-            ' 2013 &quot;Tuwim dla dzieci&quot; - reż. B. Szyc - Teatr Muzyczny w Gdyni\n' +
-            ' 2011 &quot;Shrek&quot; - Ślepa Myszka, reż. M. Korwin - Teatr Muzyczny w Gdyni\n' +
-            ' 2011 &quot;Greasa&quot; - Betty Rizzo, reż. M. Korwin - Teatr Muzyczny w Gdyni\n' +
-            ' 2010 &quot;Lalka&quot; - Izabela Łęcka, reż. W. Kościelniak - Teatr Muzyczny w Gdyni\n' +
-            ' 2008 &quot;Skrzypek na dachu&quot; - reż. J. Gruza - Teatr Muzyczny w Gdyni\n' +
-            ' 2007 &quot;Fame&quot; - Carmen, reż. J&gt; Staniek Teatr Muzyczny w Gdyni\n' +
-            ' 2003 &quot;Pinokio&quot; - reż. B. Szyc - Teatr Muzyczny w Gdyni\n' +
+            ' 2013 "Chłopi" - Jagna, reż. W. Kościelniak - Teatr Muzyczny w Gdyni\n' +
+            ' 2013 "Tuwim dla dzieci" - reż. B. Szyc - Teatr Muzyczny w Gdyni\n' +
+            ' 2011 "Shrek" - Ślepa Myszka, reż. M. Korwin - Teatr Muzyczny w Gdyni\n' +
+            ' 2011 "Greasa" - Betty Rizzo, reż. M. Korwin - Teatr Muzyczny w Gdyni\n' +
+            ' 2010 "Lalka" - Izabela Łęcka, reż. W. Kościelniak - Teatr Muzyczny w Gdyni\n' +
+            ' 2008 "Skrzypek na dachu" - reż. J. Gruza - Teatr Muzyczny w Gdyni\n' +
+            ' 2007 "Fame" - Carmen, reż. J&gt; Staniek Teatr Muzyczny w Gdyni\n' +
+            ' 2003 "Pinokio" - reż. B. Szyc - Teatr Muzyczny w Gdyni\n' +
             'Występowała w spektaklach:\n' +
-            '&quot;Przebudzenie wiosny&quot; - Ilsa (reż. K. Gordon, 2012); &quot;Tango Nuevo&quot;(reż. G. Castellanos, 2011); &quot;Mały Książę&quot;\n' +
-            '(reż. R. Komassa, 2010); &quot;My fair lady&quot; (reż. M. Korwin, 2009); &quot;Fame&quot;- Carmen (reż. J. Staniek, 2007);\n' +
-            '&quot;Francesco&quot; - Pacyfiki (reż. W. Kościelniak, 2007); &quot;Błogosławieni. Pieśni gospel&quot; (reż.R. Gosławska, 2006};\n' +
-            '&quot;Footloose - wrzuć na luz&quot; - Urlen (reż.M. Korwin, 2006); &quot;Kiss me, Kate&quot; - Bianka/Lois Lane (reż. M. Korwin, 2006);\n' +
-            '&quot;Janosik czyli na szkle malowane&quot; - Śmierć, Lisawa (reż. K. Janda, 2004); &quot;Roxi Bar&quot; (reż. A. Kękuś,2004); &quot;Dracula&quot;\n' +
-            '(reż. M. Korwin, J. Staniek, 2004); &quot;Klatka wariatek&quot; (reż. M. Korwin, 2003); &quot;Chicago&quot; - June Hunyak, Liz\n' +
-            '(reż. M. Korwin, 2002); &quot;Wichrowe wzgórza&quot; (reż. M. Korwin, 1998); &quot;Scrooge&quot; (reż. M. Korwin, 1998).\n' +
+            '"Przebudzenie wiosny" - Ilsa (reż. K. Gordon, 2012); "Tango Nuevo"(reż. G. Castellanos, 2011); "Mały Książę"\n' +
+            '(reż. R. Komassa, 2010); "My fair lady" (reż. M. Korwin, 2009); "Fame"- Carmen (reż. J. Staniek, 2007);\n' +
+            '"Francesco" - Pacyfiki (reż. W. Kościelniak, 2007); "Błogosławieni. Pieśni gospel" (reż.R. Gosławska, 2006};\n' +
+            '"Footloose - wrzuć na luz" - Urlen (reż.M. Korwin, 2006); "Kiss me, Kate" - Bianka/Lois Lane (reż. M. Korwin, 2006);\n' +
+            '"Janosik czyli na szkle malowane" - Śmierć, Lisawa (reż. K. Janda, 2004); "Roxi Bar" (reż. A. Kękuś,2004); "Dracula"\n' +
+            '(reż. M. Korwin, J. Staniek, 2004); "Klatka wariatek" (reż. M. Korwin, 2003); "Chicago" - June Hunyak, Liz\n' +
+            '(reż. M. Korwin, 2002); "Wichrowe wzgórza" (reż. M. Korwin, 1998); "Scrooge" (reż. M. Korwin, 1998).\n' +
             'Gościnnie zagrała:\n' +
-            '&quot;Rent&quot; - Maureen (reż. A. Ozga, 2008); &quot;West Side Story&quot; - Smarkula (reż. B. Solone, 2001) na scenie Opery Zamku\n' +
-            'w Szczecinie, w Centrum Kultury w Gdyni - &quot;Piaskownica (reż. G. Chrapkiewicz, 2014); w Teatrze Miniatura\n' +
-            'w Gdańsku &quot;Pierścień i Róża&quot; - Angelika. Brała udział w Koncercie Galowym Przeglądu Piosenki Aktorskiej 2012 w reż.'
+            '"Rent" - Maureen (reż. A. Ozga, 2008); "West Side Story" - Smarkula (reż. B. Solone, 2001) na scenie Opery Zamku\n' +
+            'w Szczecinie, w Centrum Kultury w Gdyni - "Piaskownica (reż. G. Chrapkiewicz, 2014); w Teatrze Miniatura\n' +
+            'w Gdańsku "Pierścień i Róża" - Angelika. Brała udział w Koncercie Galowym Przeglądu Piosenki Aktorskiej 2012 w reż.'
     },
     {
         id: '2',
