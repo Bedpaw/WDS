@@ -280,6 +280,6 @@ export const teachers = [
             '\n' +
             'Korzystając ze swoich umiejętności i doświadczenia, w 2014 roku założył własną młodzieżową formację taneczną „FULL DANCE”, w której zarówno tańczył, jak i był jej choreografem. Z sukcesami rozwijał ją do czasu wyjazdu z kraju.\n' +
             '\n' +
-            'Od dwóch lat mieszka w Polsce i zaraża swoją miłością do tańca pracując jako instruktor. Swoje umiejętności taneczne uzupełnia profesjonalnym podejściem i niewyczerpującą się energią. Tancerz i prezenter licznych eventów w Wenezueli i w Polsce. Na deskach sceny Teatru Muzycznego w Gdyni zadebiutuje w spektaklu „Hairspray”.'
+            'Od dwóch lat mieszka w Polsce i zaraża swoją miłością do tańca pracując jako instruktor. Swoje umiejętności taneczne uzupełnia profesjonalnym podejściem i niewyczerpującą się energią. Tancerz i prezenter licznych eventów w Wenezueli i w Polsce. Występuje na deskach sceny Teatru Muzycznego w Gdyni min. w spektaklu „Hairspray”.'
     },
 ]
