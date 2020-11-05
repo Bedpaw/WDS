@@ -2,6 +2,7 @@ import React from 'react';
 import './NewsCarousel.css';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
+import  luis  from '../../assets/teachers_pic/luisEduardo.jpg'
 
 class NewsCarousel extends React.Component {
 
@@ -10,7 +11,7 @@ class NewsCarousel extends React.Component {
             <div className={'container'}>
                 <Carousel showThumbs={false}>
                     <div className={'News'}>
-                        <img src={'https://i.picsum.photos/id/90/960/450.jpg?hmac=fr9fvZ8BCWHzQ-NDs5Pw9gOlU0jN_fkpWRFvE3ttF4M'}/>
+                        <img src={luis}/>
                         <p>News 1</p>
                     </div>
                     <div className={'News'}>

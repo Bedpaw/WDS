@@ -15,12 +15,12 @@ class Nav extends React.Component {
                     <HashLink to={`/#landingPage`}><img src={logo} className={'logo'}/></HashLink>
                     <h1>Warsztat Działań Scenicznych</h1>
                     <Menu right top={'0'}>
-                        <HashLink to={'/#aboutPlace'}><h2>O miejscu</h2></HashLink>
-                        <Link to={`/Lessons`}><h2>Zajecia</h2></Link>
-                        <Link to={`/PriceList`}><h2>Cennik</h2></Link>
-                        <Link to={`/TimeTable`}><h2>Harmonogram</h2></Link>
-                        <Link to={`/Teachers`}><h2>Kadra</h2></Link>
-                        <HashLink to={'/#contact'}><h2>Kontakt</h2></HashLink>
+                        <HashLink to={'/#aboutPlace'}><h3>O miejscu</h3></HashLink>
+                        <Link to={`/Lessons`}><h3>Zajecia</h3></Link>
+                        <Link to={`/PriceList`}><h3>Cennik</h3></Link>
+                        <Link to={`/TimeTable`}><h3>Harmonogram</h3></Link>
+                        <Link to={`/Teachers`}><h3>Kadra</h3></Link>
+                        <HashLink to={'/#contact'}><h3>Kontakt</h3></HashLink>
                     </Menu>
                 </div>
             </nav>

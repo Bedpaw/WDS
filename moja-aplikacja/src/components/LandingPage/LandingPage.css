@@ -6,3 +6,7 @@
     display: flex;
     align-items: center;
 }
+
+.aboutPlace {
+    padding: 0;
+}

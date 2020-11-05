@@ -10,17 +10,14 @@ export const timeTable = [
   { name: 'PONIEDZIAŁEK',
     events: [
       new event("16.30 - 17.45", "step", "Emilia Witowska" ),
-      new event("18.00 - 19.30", "aktorstwo", "Grzegorz Wolf"),
-      new event("19.30 - 21.00", "aktorstwo (18+)","Grzegorz Wolf"),
+      new event("18.30 - 20.00", "aktorstwo", "Grzegorz Wolf"),
     ]
   },
   { name: 'WTOREK',
     events: [
-      new event("16.00 - 17.00", "taniec klasyczny z muzyką na żywo (13-15 lat)", "Aleksandra Foltman" ),
-      new event("17.00 - 17.45", "balet z muzyką na żywo", "Aleksandra Foltman" ),
-      new event("17.45 - 19.00", "taniec klasyczny z muzyką na żywo", "Aleksandra Foltman"),
+      new event("17.00 - 17.45", "balet z muzyką na żywo (8-12 lat)", "Aleksandra Foltman" ),
+      new event("17.45 - 19.00", "taniec klasyczny z muzyką na żywo (16+)", "Aleksandra Foltman"),
       new event("19.30 - 20.30", "akrobatyka sceniczna", "Szymon Sztukowski"),
-      new event("20.45 - 21.45", "zouk pary plus single (18+)", "Piotr Burba"),
     ]
   },
   { name: 'ŚRODA',
@@ -33,11 +30,14 @@ export const timeTable = [
   { name: 'CZWARTEK',
     events: [
       new event("16.30 - 17.45", "jazz", "Mateusz Pietrzak" ),
+      new event("18.00 - 19.15", "jazz", "Mateusz Pietrzak" ),
     ]
   },
   { name: 'PIĄTEK',
     events: [
-      new event("16.15 - 17.45", "wokal grupowy", "Renia Gosławska" ),
+      new event("16.15 - 17.30", "wokal grupowy", "Renia Gosławska" ),
+      new event("17:45 - 19:00", "choreo - wokal", "Luis Eduardo Granado" ),
+      new event("19.15 - 20.30", "dance open", "Luis Eduardo Granado" ),
     ]
   },
 ]

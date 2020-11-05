@@ -1,4 +1,4 @@
-//import  sztukowski  from '../../assets/teachers_pic/szymonSztukowski.jpg'
+import  sztukowski  from '../../assets/teachers_pic/szymonSztukowski.jpg'
 import  goslawska  from '../../assets/teachers_pic/reniaGoslawska.jpg'
 import  foltman  from '../../assets/teachers_pic/aleksandraFoltman.jpg'
 import  morawiec  from '../../assets/teachers_pic/andrzejMorawiec.jpg'
@@ -8,25 +8,25 @@ import  wiecek  from '../../assets/teachers_pic/katarzynaWiecek.jpg'
 import  pietrzak  from '../../assets/teachers_pic/mateuszPietrzak.jpg'
 import  witulski  from '../../assets/teachers_pic/pawelWitulski.jpg'
 import  burba  from '../../assets/teachers_pic/piotrBurba.jpg'
-//import  smuk  from '../../assets/teachers_pic/martaSmuk.jpg'
+import  smuk  from '../../assets/teachers_pic/martaSmuk.jpg'
+import  luis  from '../../assets/teachers_pic/luisEduardo.jpg'
 
 export const teachers = [
     {
         id: '0',
-        firstName: 'Szymon',
-        lastName: 'Sztukowski',
-        lesson: 'Akrobatyka Sceniczna',
-        img: 'cokolwiek',
-        bio: 'Od najmłodszych lat czynie związany ze sportem, głównie z kategorii Ekstremalnych oraz sztuk waliki.\n' +
-            'W wieku 15 lat zaczął zajmować się Akrobatyką w różnych jej odmianach, zaczynając od naziemnej (Tricking, capoeira, parkur) przechodząc przez powietrzną (Skoki na trampolinach, Szarfy i koła akrobatyczne). Wszystkiego uczył się sam korzystając z Internetu i wymieniając doświadczeniem z przyjaciółmi.\n' +
-            'Jego historia związała się z teatrem kiedy w wieku 13 lal zobaczył swój pierwszy musical, „Footloose - wrzuć luz” w teatrze muzycznym w Gdyni.\n' +
-            'Po tym wydarzeniu stwierdził że chce swoje życie związać z Teatrem i marzy aby wystąpić, zatańczyć i zaśpiewać na tej scenie.\n' +
-            'W roku 2014 zawiązał współprace z Akrobatycznym teatrem tańca Mira-art, z którym stworzyli wiele ciekawych projektów miedzy innymi Spektal „Sindbad” w którym zagrał role tytułowego Sindbada.\n' +
-            'w roku 2016 osiągnął swój pierwszy cel zagrał na scenie Teatru muzycznego w Gdyni w spektaklu „Notre Dame De Paris”.\n' +
-            'We wrześniu następnego roku odbyła się kolejna premiera Gdyni a mianowicie spektaklu „Wiedźmin” w której miał okazie również występować a nawet mieć solowy numer kalo Cyr.\n' +
-            'W roku 2019 w Krakowskim Teatrze Variete, zagrał kolejnym w Musicalu  „Opera za 3 grosze” gdzie miał przyjemność pracować z tak genialnymi Choreografami jak Jarosław Staniek oraz Katarzyna Zielonka to oni jak pierwsi docenili bardziej niż inni jego ruch i chcieli go wykorzystać.\n' +
-            'Tego samego Roku we Wrześniu miała premierę premiera „Rock Of Ages” w Teatrze Syrena w Warszawie Gdzie po raz kolejny Spotkał się z J. Stańkiem i K. Zielonką tym razem wykorzystali jego umiejętności w 100%. Układając Choreografie postarali się o to aby było go jak najwięcej i jego Tańca i Akrobacji na scenie, Szymon nie ma Dublera. \n' +
-            'Szymon dalej się rozwija i dążąc do  swoich marzeń, z projektu na projekt czując się coraz bardziej doceniany i pewniejszy na deskach teatru, wierząc że pewnego dnia Zaśpiewa na scenie aby spełniło się to o czym marzył już jako mały chłopiec.'
+        firstName: 'Marta',
+        lastName: 'Smuk',
+        lesson: 'Kapitan okrętu/wokal',
+        img: smuk,
+        bio: 'certyfikowana instruktor Aerial Yoga, studentka Kursu Nauczycielskiego Jogi\n' +
+            '\n' +
+            'Aktorka scen muzycznych występująca na deskachTeatru Muzycznego im. D. Baduszkowej w Gdynii.\n' +
+            ' \n' +
+            'Przez lata praktykowała jogę, co zaprowadziło ją do studiowania rozległych jej form od równoważącej hatha jogi, przez płynną vinjasę, unoszącą aerial jogę do regeneracyjnej jogi nidry.\n' +
+            '\n' +
+            'Kreatywne eksploracje technik jogi i ciekawość zmotywowały ją w 2019 roku do ukończenia Kursu Instruktorskiego Aerial Yoga w Bhakti Shala - Szkole Jogi i Tantry.\n' +
+            'Obecnie studentka Kursu Nauczycielskiego BSYTT w Gdańsku .\n' +
+            'Od niedawna wzbogaca swój holistyczny rozwój o naturalne metody terapii.'
     },
     {
         id: '1',
@@ -249,18 +249,37 @@ export const teachers = [
     },
     {
         id: '10',
-        firstName: 'Marta',
-        lastName: 'Smuk',
-        lesson: 'Kapitan okrętu/wokal',
-        img: 'smuk',
-        bio: 'certyfikowana instruktor Aerial Yoga, studentka Kursu Nauczycielskiego Jogi\n' +
+        firstName: 'Szymon',
+        lastName: 'Sztukowski',
+        lesson: 'Akrobatyka Sceniczna',
+        img: sztukowski,
+        bio: 'Od najmłodszych lat czynie związany ze sportem, głównie z kategorii Ekstremalnych oraz sztuk waliki.\n' +
+            'W wieku 15 lat zaczął zajmować się Akrobatyką w różnych jej odmianach, zaczynając od naziemnej (Tricking, capoeira, parkur) przechodząc przez powietrzną (Skoki na trampolinach, Szarfy i koła akrobatyczne). Wszystkiego uczył się sam korzystając z Internetu i wymieniając doświadczeniem z przyjaciółmi.\n' +
+            'Jego historia związała się z teatrem kiedy w wieku 13 lal zobaczył swój pierwszy musical, „Footloose - wrzuć luz” w teatrze muzycznym w Gdyni.\n' +
+            'Po tym wydarzeniu stwierdził że chce swoje życie związać z Teatrem i marzy aby wystąpić, zatańczyć i zaśpiewać na tej scenie.\n' +
+            'W roku 2014 zawiązał współprace z Akrobatycznym teatrem tańca Mira-art, z którym stworzyli wiele ciekawych projektów miedzy innymi Spektal „Sindbad” w którym zagrał role tytułowego Sindbada.\n' +
+            'w roku 2016 osiągnął swój pierwszy cel zagrał na scenie Teatru muzycznego w Gdyni w spektaklu „Notre Dame De Paris”.\n' +
+            'We wrześniu następnego roku odbyła się kolejna premiera Gdyni a mianowicie spektaklu „Wiedźmin” w której miał okazie również występować a nawet mieć solowy numer kalo Cyr.\n' +
+            'W roku 2019 w Krakowskim Teatrze Variete, zagrał kolejnym w Musicalu  „Opera za 3 grosze” gdzie miał przyjemność pracować z tak genialnymi Choreografami jak Jarosław Staniek oraz Katarzyna Zielonka to oni jak pierwsi docenili bardziej niż inni jego ruch i chcieli go wykorzystać.\n' +
+            'Tego samego Roku we Wrześniu miała premierę premiera „Rock Of Ages” w Teatrze Syrena w Warszawie Gdzie po raz kolejny Spotkał się z J. Stańkiem i K. Zielonką tym razem wykorzystali jego umiejętności w 100%. Układając Choreografie postarali się o to aby było go jak najwięcej i jego Tańca i Akrobacji na scenie, Szymon nie ma Dublera. \n' +
+            'Szymon dalej się rozwija i dążąc do  swoich marzeń, z projektu na projekt czując się coraz bardziej doceniany i pewniejszy na deskach teatru, wierząc że pewnego dnia Zaśpiewa na scenie aby spełniło się to o czym marzył już jako mały chłopiec.'
+    },
+    {
+        id: '11',
+        firstName: 'Luis Eduardo',
+        lastName: 'Granado',
+        lesson: 'Wokal/Taniec',
+        img: luis,
+        bio: 'Urodzony w gorącej Wenezueli. Ojciec grywał na perkusji, a bracia na gitarze i cuatro. Swoje pierwsze kroki jako tancerz i wokalista stawiał w grupie muzycznej ,,Cuatro y Bumbac" w rodzinnym San Felix, gdzie rozwijał się tanecznie i wokalnie.\n' +
             '\n' +
-            'Aktorka scen muzycznych występująca na deskachTeatru Muzycznego im. D. Baduszkowej w Gdynii.\n' +
-            ' \n' +
-            'Przez lata praktykowała jogę, co zaprowadziło ją do studiowania rozległych jej form od równoważącej hatha jogi, przez płynną vinjasę, unoszącą aerial jogę do regeneracyjnej jogi nidry.\n' +
+            'Absolwent Inżynierii Przemysłowej na Universidad Nacional Experimental Politécnica im. Antonio José de Sucre w Puerto Ordaz, wciąż wierny swej pasji, tenor Chóru Akademickiego „Orfeón Universitario Rafael Montaño UNEXPO” z którym trzykrotnie sięgnął po medale Międzynarodowej Olimpiady Chórów ,,World Choir Games", jako solista chóru (Wenecja 2009, Cincinnati 2012).\n' +
             '\n' +
-            'Kreatywne eksploracje technik jogi i ciekawość zmotywowały ją w 2019 roku do ukończenia Kursu Instruktorskiego Aerial Yoga w Bhakti Shala - Szkole Jogi i Tantry.\n' +
-            'Obecnie studentka Kursu Nauczycielskiego BSYTT w Gdańsku .\n' +
-            'Od niedawna wzbogaca swój holistyczny rozwój o naturalne metody terapii.'
+            'W tym okresie również rozwijał się tanecznie m.in. jako tancerz ludowy w Fundacjach Tańca Narodowego „Danzas Estampas Nacionalistas” i  ,,Danzas Yacambú", oraz tancerz Urban Commercial w Akademii Tańca INFRAKTOR DANCE.\n' +
+            '\n' +
+            'Podczas praktyk studenckich zapisał się do chóru zakładowego, gdzie szybko z wokalisty i tancerza stał się również nauczycielem technik ruchu i mowy ciała. W 2013 roku uzyskał dyplom  „International Music and Movement” prowadzonego przez American Center for Professional Development&Training.\n' +
+            '\n' +
+            'Korzystając ze swoich umiejętności i doświadczenia, w 2014 roku założył własną młodzieżową formację taneczną „FULL DANCE”, w której zarówno tańczył, jak i był jej choreografem. Z sukcesami rozwijał ją do czasu wyjazdu z kraju.\n' +
+            '\n' +
+            'Od dwóch lat mieszka w Polsce i zaraża swoją miłością do tańca pracując jako instruktor. Swoje umiejętności taneczne uzupełnia profesjonalnym podejściem i niewyczerpującą się energią. Tancerz i prezenter licznych eventów w Wenezueli i w Polsce. Na deskach sceny Teatru Muzycznego w Gdyni zadebiutuje w spektaklu „Hairspray”.'
     },
 ]

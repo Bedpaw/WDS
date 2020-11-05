@@ -9,12 +9,12 @@
 
 /* Color/shape of burger icon bars */
 .bm-burger-bars {
-    background: #373a47;
+    background: #000000;
 }
 
 /* Color/shape of burger icon bars on hover*/
 .bm-burger-bars-hover {
-    background: #a90000;
+    background: #FFFFFF;
 }
 
 /* Position and sizing of clickable cross button */
@@ -65,5 +65,6 @@ Note: Beware of modifying this element as it can break the animations - you shou
 
 /* Styling of overlay */
 .bm-overlay {
+    display: none;
     background: rgba(0, 0, 0, 0.3);
 }
