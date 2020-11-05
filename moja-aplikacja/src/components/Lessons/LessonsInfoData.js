@@ -17,6 +17,7 @@ export const lessons = [
             'renesansowych tańców dworskich. Bardzo sformalizowany - zasady tego tańca zostały skodyfikowane w 1820 r. ' +
             'Najtrudniejsza technika taneczna, wymagająca od tancerzy nadzwyczajnej sprawności fizycznej, ' +
             'elastyczności i perfekcji technicznej.',
+        teacher: 'Aleksandra Foltman',
         teacherNr: '5',
     },
     {
@@ -103,5 +104,17 @@ export const lessons = [
             ' dostosowane do indywidualnych predyspozycji wokalisty.',
         teacher: 'Marta Smuk',
         teacherNr: '0',
+    },
+    {
+        id: '10',
+        name: 'choreo-wokal',
+        desc: 'To zajęcia ruchowe, które łączą taniec ze śpiewem. \n' +
+            'Podczas treningów będziemy uczyć się poszczególnych króków tanecznych oraz krótkich choreografii. Szczególną uwagę zwracamy na techniki prawidłowego oddychania podczas śpiewania w tańcu i łączenie ze sobą tych dwóch dziedzin świata musicalowego. \n' +
+            'Choreo-wokal nie ogranicza się do jednego, konkretnego stylu tanecznego.\n' +
+            'Uzależniony on będzie od gatunku utworu, nad którym Warsztatowicze pracują podczas indywidualnych i grupowych zajęć wokalnych. \n' +
+            'Praktyki z Luisem to przede wszystkim taniec. Ale oczywiście będzie możliwość usłyszenia i pracy nad własnym śpiewem pod okiem tego niezwykle uzdolnionego pedagoga. \n' +
+            'Umiejętność prawidłowego łączenia ruchu i śpiewu to klucz do sukcesu!',
+        teacher: 'Luis Eduardo Granado',
+        teacherNr: '11',
     },
 ]

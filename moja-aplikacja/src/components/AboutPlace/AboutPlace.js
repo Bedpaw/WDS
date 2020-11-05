@@ -8,7 +8,7 @@ const {p1, p2, p3, p4} = aboutPlaceInfo;
 class AboutPlace extends React.Component {
     render() {
         return (
-            <section className={'aboutUs'} id={'#aboutUs'}>
+            <section className={'aboutUs'}>
                 <div className={'aboutUsShadow'}>
                     <div className={'container'}>
                         <article className={'aboutUsText'}>
@@ -22,13 +22,13 @@ class AboutPlace extends React.Component {
                                 <h2>Nasi prowadzący</h2>
                                 <h3>Każde miejsce tworzą ludzie, poznajcie naszych mistrzów sztuki scenicznej, którzy prowadzą
                                 dla Was zajęcia.</h3>
-                                <Link to={`/Teachers`}><button className={'btnTransparent'}><h3>SPRAWDŹ</h3></button></Link>
+                                <Link to={`/kadra`}><button className={'btnTransparent'}><h3>SPRAWDŹ</h3></button></Link>
                             </div>
                             <div className={'aboutUsClasses'}>
                                 <h2>Nasze zajęcia</h2>
                                 <h3>Nie wiesz czy znajdziesz coś dla siebie? Dowiedz się więcej o naszej ofercie i wybierz to co
                                 Cię interesuje najbardziej.</h3>
-                                <Link to={`/Lessons`}><button className={'btnTransparent'}><h3>SPRAWDŹ</h3></button></Link>
+                                <Link to={`/zajecia`}><button className={'btnTransparent'}><h3>SPRAWDŹ</h3></button></Link>
                             </div>
                         </article>
                     </div>

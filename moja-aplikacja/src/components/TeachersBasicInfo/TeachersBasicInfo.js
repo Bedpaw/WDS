@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 function TeachersBasicInfo (params) {
     const {id, firstName, lastName, img, lesson} = params;
     return (
-        <Link to={`/teacher/${id}`}>
+        <Link to={`/kadra/${id}`}>
             <article className={'teacher_info'}>
                 <h2>{firstName}</h2>
                 <h2>{lastName}</h2>

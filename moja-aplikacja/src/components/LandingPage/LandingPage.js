@@ -9,10 +9,10 @@ class LandingPage extends React.Component {
     render() {
         return (
             <>
-                <section id={'aboutPlace'} className={'aboutPlace'}>
+                <section id={'o_nas'} className={'aboutPlace'}>
                     <AboutPlace/>
                 </section>
-                <section id={'contact'}>
+                <section id={'kontakt'}>
                     <Contact/>
                 </section>
             </>

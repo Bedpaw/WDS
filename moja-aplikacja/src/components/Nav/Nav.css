@@ -30,8 +30,7 @@ nav .logo {
     height: 100%;
 }
 .logoLink {
-    width: 100px;
-    height: 104px;
+    width: 20%;
     padding: 5px 15px 5px 15px;
 }
 
@@ -42,5 +41,9 @@ nav .logo {
 @media (min-width: 1024px) {
     nav h1 {
         display: flex;
+    }
+
+    .logoLink {
+        width: 5%;
     }
 }
