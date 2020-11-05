@@ -1,6 +1,6 @@
 nav {
     width: 100%;
-    height: 100px;
+    height: 100%;
     background-color: #5809AC;
     border-bottom: #000000 2px solid;
     position: sticky;
@@ -14,6 +14,7 @@ nav .container {
     height: 100%;
     display: flex;
     align-items: center;
+    width: 100%;
 }
 
 nav a {
@@ -25,8 +26,13 @@ nav h1 {
 }
 
 nav .logo {
-    width: 30%;
+    width: 100%;
     height: 100%;
+}
+.logoLink {
+    width: 100px;
+    height: 104px;
+    padding: 5px 15px 5px 15px;
 }
 
 @media (min-width: 768px) {

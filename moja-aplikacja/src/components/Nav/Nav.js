@@ -12,9 +12,9 @@ class Nav extends React.Component {
         return (
             <nav>
                 <div className={'container'}>
-                    <HashLink to={`/#landingPage`}><img src={logo} className={'logo'}/></HashLink>
+                    <HashLink to={`/#landingPage`} className={'logoLink'}><img src={logo} className={'logo'}/></HashLink>
                     <h1>Warsztat Działań Scenicznych</h1>
-                    <Menu right top={'0'}>
+                    <Menu right top={'0'} style={{overflow: "hidden"}}>
                         <HashLink to={'/#aboutPlace'}><h3>O miejscu</h3></HashLink>
                         <Link to={`/Lessons`}><h3>Zajecia</h3></Link>
                         <Link to={`/PriceList`}><h3>Cennik</h3></Link>
